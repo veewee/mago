@@ -9,6 +9,7 @@ use crate::integration::IntegrationSet;
 use crate::rule::AmbiguousFunctionCallConfig;
 use crate::rule::ArrayStyleConfig;
 use crate::rule::AssertDescriptionConfig;
+use crate::rule::BlankLineBetweenImportGroupsConfig;
 use crate::rule::AssertionStyleConfig;
 use crate::rule::BlockStatementConfig;
 use crate::rule::BracedStringInterpolationConfig;
@@ -176,6 +177,7 @@ pub struct RulesSettings {
     pub use_specific_expectations: RuleSettings<UseSpecificExpectationsConfig>,
     pub array_style: RuleSettings<ArrayStyleConfig>,
     pub assert_description: RuleSettings<AssertDescriptionConfig>,
+    pub blank_line_between_import_groups: RuleSettings<BlankLineBetweenImportGroupsConfig>,
     pub assertion_style: RuleSettings<AssertionStyleConfig>,
     pub block_statement: RuleSettings<BlockStatementConfig>,
     pub braced_string_interpolation: RuleSettings<BracedStringInterpolationConfig>,

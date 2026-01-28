@@ -1,5 +1,6 @@
 pub mod ambiguous_function_call;
 pub mod array_style;
+pub mod blank_line_between_import_groups;
 pub mod assertion_style;
 pub mod block_statement;
 pub mod braced_string_interpolation;
@@ -20,6 +21,7 @@ pub mod variable_name;
 
 pub use ambiguous_function_call::*;
 pub use array_style::*;
+pub use blank_line_between_import_groups::*;
 pub use assertion_style::*;
 pub use block_statement::*;
 pub use braced_string_interpolation::*;

@@ -5,6 +5,7 @@ pub mod misc;
 pub mod pest;
 pub mod phpunit;
 pub mod security;
+pub mod use_statements;
 
 pub fn format_replacements(replacements: &[&str]) -> String {
     let mut result = String::new();
